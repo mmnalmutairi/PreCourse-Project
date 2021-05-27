@@ -150,6 +150,8 @@ function abbreviate(firstName, lastName) {
 
   return intialsUppercase1.toUpperCase();
 
+  //return `${firstName.substr(0, 1).toUpperCase() + lastName.substr(0, 1).toUpperCase()}`;
+
 }
 
 // console.log(abbreviate("miss", "Stephane"));
